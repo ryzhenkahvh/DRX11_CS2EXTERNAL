@@ -1,0 +1,3 @@
+﻿WorldToScreen.obj : error LNK2005: "bool __cdecl WorldToScreen(struct Vector3 const &,struct Vector2 &,struct ViewMatrix const &,int,int)" (?WorldToScreen@@YA_NAEBUVector3@@AEAUVector2@@AEBUViewMatrix@@HH@Z) уже определен в Types.obj
+Overlay.obj : error LNK2001: неразрешенный внешний символ D3D11CreateDeviceAndSwapChain.
+E:\CS2External\x64\Release\CS2External.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

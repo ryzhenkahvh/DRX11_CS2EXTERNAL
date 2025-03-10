@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{23ecca09-bc4e-4650-801e-db050912d8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{321f36f1-5f47-4837-b652-f1dd532b2600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Features">
+      <UniqueIdentifier>{3630d7e3-e10d-44ce-824d-287ad31bee14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GUI">
+      <UniqueIdentifier>{5ce05b00-b31e-4944-a415-4af7d1b06273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SDK">
+      <UniqueIdentifier>{5e2cf6e0-dd4a-42c8-8c96-61fff148ebc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Memory.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>src\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Types.cpp">
+      <Filter>src\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldToScreen.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>src\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>src\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>src\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
